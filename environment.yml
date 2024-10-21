@@ -5,8 +5,12 @@ channels:
   - nodefaults
 
 dependencies:
+  - gh
+  - git
+  - git-lfs
   - jupyterlab
   - jupyterlab-lsp
+  - nbgitpuller
   - pip
   - pip:
     - -r requirements.txt
